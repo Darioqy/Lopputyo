@@ -5,41 +5,6 @@ body {
     background-color: #f4f4f4;
   }
   
-  .TabApp-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    margin-top: 20px;
-  }
-  
-  .Tabs {
-    background-color: #2196F3;
-  }
-  
-  .Tab {
-    color: white;
-  }
-  
-  .TabApp-container h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .AgGridReact-container {
-    height: 700px;
-    width: 70%;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    overflow: hidden;
-    margin-top: 20px;
-  }
-  
-  
   .ag-theme-material .ag-root-wrapper {
     margin: 0;
   }
@@ -64,3 +29,16 @@ body {
   .ag-theme-material .ag-row:nth-child(even) {
     background-color: #f9f9f9;
   }
+
+
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    box-sizing: border-box;
+}
+
+.addNew {
+  margin: 3% 40% 5% 20%;
+}
