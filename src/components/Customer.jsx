@@ -19,13 +19,13 @@ const Customer = () => {
   };
 
   const columns = [
-    { headerName: 'First Name', field: 'firstname', sortable: true },
-    { headerName: 'Last Name', field: 'lastname', sortable: true },
-    { headerName: 'Street Address', field: 'streetaddress', sortable: true },
-    { headerName: 'Postcode', field: 'postcode', sortable: true },
-    { headerName: 'City', field: 'city', sortable: true },
-    { headerName: 'Email', field: 'email', sortable: true },
-    { headerName: 'Phone', field: 'phone', sortable: true },
+    { headerName: 'First Name', field: 'firstname', sortable: true, filter: true },
+    { headerName: 'Last Name', field: 'lastname', sortable: true, filter: true },
+    { headerName: 'Street Address', field: 'streetaddress', sortable: true, filter: true },
+    { headerName: 'Postcode', field: 'postcode', sortable: true, filter: true },
+    { headerName: 'City', field: 'city', sortable: true, filter: true },
+    { headerName: 'Email', field: 'email', sortable: true, filter: true  },
+    { headerName: 'Phone', field: 'phone', sortable: true, filter: true },
   ];
 
   return (

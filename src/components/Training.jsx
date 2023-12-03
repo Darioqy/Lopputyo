@@ -7,10 +7,10 @@ import 'moment/locale/fi';
 import '../App.css';
 
 const columns = [
-  {flex: "1", field: "date", sortable: true, valueFormatter: params => moment(params.value).format('DD.MM.YYYY HH:mm') },
-  {flex: "1",  field: "duration", sortable: true},
-  {flex: "1",  field: "activity", sortable: true},
-  {flex: "1",  field: "customer", sortable: true,  valueGetter: params => {
+  {flex: "1", field: "date", sortable: true, filter: true, valueFormatter: params => moment(params.value).format('DD.MM.YYYY HH:mm') },
+  {flex: "1",  field: "duration", sortable: true, filter: true},
+  {flex: "1",  field: "activity", sortable: true, filter: true},
+  {flex: "1",  field: "customer", sortable: true, filter: true,  valueGetter: params => {
     const customer = params.data.customer;
     return `${customer.firstname} ${customer.lastname}`;
     }}
